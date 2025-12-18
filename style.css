@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.navbar h1{
+    font-size: 3rem;
+}
+
+.navbar .rightNavbar button{
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+}

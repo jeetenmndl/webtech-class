@@ -1,0 +1,26 @@
+features
+---------------
+authentication and user management
+user/admin/seller dashboard
+product listing
+product browsing
+product details
+cart management
+order management
+
+pages
+---------------
+landing page
+homepage
+category page
+product details page
+cart page
+orders page
+
+product listing page
+dashboard
+
+design
+----------------
+font: roboto, poppins, 
+color: orange
