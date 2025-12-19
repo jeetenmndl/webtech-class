@@ -28,3 +28,61 @@
     font-size: 1.5rem;
     color: white;
 }
+
+.categoryBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: rgb(255, 139, 97);
+    color: white;
+}
+
+.categoryBar div a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.newArrivals{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.newArrivals>div {
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.arriavlsLeft{
+    width: 65%;
+    height: 60vh;
+    background-color: orangered;
+}
+
+.arrivalsRight{
+    width: 35%;
+    height: 60vh;
+    background-color: rgb(242, 242, 209);
+}
+
+.arriavlsLeft h2{
+    color: white;
+    font-size: 3.5rem;
+}
+.arriavlsLeft p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.arrivalsRight>div{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: orangered;
+    color: black;
+    font-size: 1.5rem;
+}
