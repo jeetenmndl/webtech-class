@@ -86,3 +86,58 @@
     color: black;
     font-size: 1.5rem;
 }
+
+.cardsBox{
+    padding: 20px 40px;
+}
+
+.cardsHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.cardsHeading h2{
+    font-size: 2.25rem;
+}
+
+.cardsHeading a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    background-color: rgb(243, 243, 190);
+    color: orangered;
+    padding: 7.5px 20px;
+    border-radius: 10px;
+}
+
+.cardsHeading a:hover{
+    background-color: orangered;
+    color: rgb(243, 243, 190);
+}
+
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(255, 150, 112);
+    border-radius: 10px;
+}
+.card .productInfo{
+    padding: 10px;
+}
+
+.productInfo h3{
+    font-size: 1.75rem;
+}
+
+.productImage img{
+    width: 100%;
+    border-radius: 5px;
+}
+
