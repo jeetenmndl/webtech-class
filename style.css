@@ -141,3 +141,23 @@
     border-radius: 5px;
 }
 
+.cardFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.cardFooter a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    background-color: rgb(243, 243, 190);
+    color: orangered;
+    padding: 7.5px 20px;
+    border-radius: 10px;
+}
+
+.cardFooter a:hover{
+    background-color: orangered;
+    color: rgb(243, 243, 190);
+}
