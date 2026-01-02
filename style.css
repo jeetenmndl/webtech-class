@@ -161,3 +161,51 @@
     background-color: orangered;
     color: rgb(243, 243, 190);
 }
+
+.contact{
+    height: 500px;
+    background-color: orangered;
+    padding: 80px 240px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contactContent{
+    color: white;
+    text-align: center;
+}
+
+.contactContent h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contactContent p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contactInputs input{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 7.5px 10px;
+    font-size: 1.2rem;
+}
+
+.contactInputs button{
+    background-color: white;
+    color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px 20px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.contactInputs button:hover{
+    background-color: darkorange;
+    color: white;
+}
